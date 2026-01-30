@@ -11,11 +11,8 @@ Reference: Gómez-Navarro, L.; van Sebille, E.; Morales-Márquez, V.; Hernández
 Figures:
 
 * [fig_01.ipynb](Code/Plotting/fig_01.ipynb)
-
-    * In:<br>
-		* .nc
 		
-	* Out: <br>
+	* Output: <br>
 [Figure 1](Figures/Map_regions_Azores.jpg): Spatial domain of the eNATL60 simulation (except the Gulf of Mexico, Black Sea and eastern Mediterranean Sea domains). Black box shows the region of this study where virtual surface particles are released. Red box shows the subregion used for some of the analyses.
 
 * [fig_02.ipynb](Code/Plotting/fig_02.ipynb)
