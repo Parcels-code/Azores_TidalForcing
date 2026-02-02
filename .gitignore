@@ -10,6 +10,9 @@ Code/Calculations/*_rough.ipynb
 # My files
 Code/Plotting/*source*
 Code/Calculations/*source*
+tests/
+.DS_Store
+Figures/.DS_Store
 
 # C extensions
 *.so
