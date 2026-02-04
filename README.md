@@ -36,8 +36,7 @@ Install by: **xx**
             * [dist_tot_km_monthly_wT.sh](Code/Calculations/Distances/dist_tot_km_monthly_wT.sh)
 		
 	* Out: <br>
-[Figure 02](Figures/cumsum_km_and_abs_dist_km_BOXPLOT_01.jpg): Box plots of mean cumulative distance [km] (top) and mean absolute distance [km]
-(bottom) travelled by the virtual particles per month.
+[Figure 02](Figures/cumsum_km_and_abs_dist_km_BOXPLOT_01.jpg): Box plots of mean cumulative distance [km] (top) and mean absolute distance [km] (bottom) travelled by the virtual particles per month.
 
 * [fig_03_04.ipynb](Code/Plotting/fig_03_04.ipynb)
 	
