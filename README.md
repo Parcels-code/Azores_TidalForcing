@@ -73,7 +73,9 @@ Install by: **xx**
 * [fig_07_08_09.ipynb](Code/Plotting/fig_07_08_09.ipynb)
     	
 	* In: 
-		* 
+		* bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz. Obtained from:
+            * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
+            * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
 	
 	* Out: 
 		* **[Figure 07](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
@@ -110,5 +112,6 @@ Supplementary figures:
 T
 
 # Calculations:
-* 
+* Monthly simulations:
+* Weekly simulations:
 
