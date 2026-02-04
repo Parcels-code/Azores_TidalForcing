@@ -93,8 +93,10 @@ Appendix figures:
 * [fig_A1.ipynb](Code/Plotting/fig_A1.ipynb)
   
 	* In:
-		* wnoises_loop_try2_cut.mat
-    	
+		* bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz. Obtained from:
+            * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
+            * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
+            
 	* Out: <br>
 	[Figure A1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_hist1d_bins1_vline05.jpg): Probability density function of the backward FTLE fields on day 1 of each month for the no tidal forcing (blue) and tidal forcing (red) simulations. The vertical black line shows the threshold used at 0.5 days−1.
 
