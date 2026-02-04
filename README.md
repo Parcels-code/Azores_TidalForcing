@@ -44,16 +44,17 @@ Install by: **xx**
 		* Monthly nectdf simulation files. Obtained from:
             *
         * GKDE npz monthly files: KDE_Particle_AZO_grid100000p_ntides_0701_hourly_MONTH.npz. Obtained from:
-            * 
-
+            * s
     * Out: <br>
 		* [Figure 03](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg): Gaussian Kernel Density Estimation (GKDE) comparison between non-tidal (top) and tidal (bottom) simulations. Maximum GKDE value (top) and percentage of particles with a high GKDE value (greater than 0.008) (bottom) are shown in the top left textbox.
 		* [Figure 04](Figures/KDE_nT_wT_monthly_ALL_perc_0080_Line.jpg): Comparison of the percentage of particles with a high GKDE value (≥0.008) per month. Non-tidal results are shown in blue and tidal in red. 
     
-* [fig_05](Code/Plotting/fig_05_08_10_12.ipynb)
+* [fig_05](Code/Plotting/fig_05.ipynb)
 	
-	* In:  [List of input files](/input_files/list_fig_05_08_10_12.md)
-		
+	* In: 
+        * Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0301_hourly_MONTH.nc. Obtained from: 
+            * 
+
 	* Out: 
 	[Figure 05](Figures/hist1d_nT_wT_monthly_nobox_new.jpg): Probability density functions of the surface particle accumulation (from the 2D, 0.1◦ binned histograms) after 28 days of advection. Results of the non-tidal simulation are shown in blue and from the tidal in red. Vertical, dashed lines indicate the maximum value.
         
