@@ -41,8 +41,11 @@ Install by: **xx**
 * [fig_03_04.ipynb](Code/Plotting/fig_03_04.ipynb)
 	
 	* In:
-		* .nc
-		
+		* Monthly nectdf simulation files. Obtained from:
+            *
+        * GKDE npz monthly files: KDE_Particle_AZO_grid100000p_ntides_0701_hourly_MONTH.npz. Obtained from:
+            * 
+
     * Out: <br>
 		* [Figure 03](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg): Gaussian Kernel Density Estimation (GKDE) comparison between non-tidal (top) and tidal (bottom) simulations. Maximum GKDE value (top) and percentage of particles with a high GKDE value (greater than 0.008) (bottom) are shown in the top left textbox.
 		* [Figure 04](Figures/KDE_nT_wT_monthly_ALL_perc_0080_Line.jpg): Comparison of the percentage of particles with a high GKDE value (≥0.008) per month. Non-tidal results are shown in blue and tidal in red. 
