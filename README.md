@@ -105,13 +105,13 @@ Supplementary figures:
 * [fig_S1_S2.ipynb](Code/Plotting/fig_S1_S2.ipynb)
     	
 	* In:
-		* wnoises_loop_try2_cut.mat
-		* wnoises_loop_try2.mat
+		* bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz. Obtained from:
+            * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
+            * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
     	
 	* Out: <br>
-		* [Figure S1](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg): Gaussian Kernel Density Estimation (GKDE) comparison between non-tidal (top) and tidal (bottom) simulations. Maximum GKDE value (top) and percentage of particles with a high GKDE value (greater than 0.008) (bottom) are shown in the top left textbox.
-		* [Figure S2](Figures/KDE_nT_wT_monthly_ALL_perc_0080_Line.jpg): Comparison of the percentage of particles with a high GKDE value (≥0.008) per month. Non-tidal results are shown in blue and tidal in red.
-T
+		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the non-tidal simulation.
+		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the tidal simulation.      
 
 # Calculations:
 * Monthly simulations:
