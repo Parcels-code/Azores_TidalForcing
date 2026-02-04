@@ -61,7 +61,10 @@ Install by: **xx**
 * [fig_06.ipynb](Code/Plotting/fig_06.ipynb)
  
  	* In: 
-		* *.nc
+        * Skewness npz skew_2D_months_subregion_v02.npz. Obtained from:
+            * ../Calculations/skew_2D_months_subregion_v02.npz
+        * Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0301_hourly_MONTH.nc. Obtained from: 
+            * 
 	
 	* Out: <br>
 	[Figure 06](Figures/skewness_intime_border_nT_wT_monthly_v02_wBARS.jpg): Skewness temporal evolution in time for each month for non-tidal (blue) and tidal
