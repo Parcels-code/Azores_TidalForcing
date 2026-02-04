@@ -4,11 +4,15 @@ Codes used for the paper: Gomez-Navarro _et al_. (2026)
 
 Reference: Gómez-Navarro, L.; van Sebille, E.; Morales-Márquez, V.; Hernández-Carrasco, I.; Albert, A.; Ubelmann, C.; Molines, J.M.; Le Sommer, J. and Brodeau, L. Impact of Tidal Forcing on Surface Particle Transport Properties: Insights From Twin Ocean Simulations. _Journal of Advances in Modeling Earth Systems_ **2026**, **_10_, 599.** (edit) www.doi.org/10.1029/2024MS004805
 
-**venv_??**
 
-**Use?** https://github.com/Parcels-code/Azores_TidalForcing/blob/main/Code/Plotting/plots_source_code.md
+## Virtual environment 
 
-Figures:
+env_parcels_Azores_analyses.yml
+
+Install by: **xx**
+
+
+## Figures:
 
 * [fig_01.ipynb](Code/Plotting/fig_01.ipynb)
 		
@@ -18,7 +22,18 @@ Figures:
 * [fig_02.ipynb](Code/Plotting/fig_02.ipynb)
 
 	* In:<br>
-		* xx.nc Obtained from: xx.py
+		* Monthly netcdfs: dist_km_Jul_nT.nc. Obtained from: 
+            * [dist_km_monthly_nT_JASO.sh](Code/Calculations/Distances/dist_km_monthly_nT_JASO.sh)
+            * [dist_km_monthly_nT_MAMJ.sh](Code/Calculations/Distances/dist_km_monthly_nT_MAMJ.sh)
+            * [dist_km_monthly_nT_ONDJF.sh](Code/Calculations/Distances/dist_km_monthly_nT_ONDJF.sh)
+		* Monthly netcdfs: dist_km_Jul_wT.nc. Obtained from:             
+            * [dist_km_monthly_wT_JASO.sh](Code/Calculations/Distances/dist_km_monthly_wT_JASO.sh)
+            * [dist_km_monthly_wT_MAMJ.sh](Code/Calculations/Distances/dist_km_monthly_wT_MAMJ.sh)
+            * [dist_km_monthly_wT_ONDJF.sh](Code/Calculations/Distances/dist_km_monthly_wT_ONDJF.sh)
+		* Monthly netcdfs: dist_tot_km_nT_Jul.nc. Obtained from:             
+            * [dist_tot_km_monthly_nT.sh](Code/Calculations/Distances/dist_tot_km_monthly_nT.sh)
+		* Monthly netcdfs: dist_tot_km_wT_Jul.nc. Obtained from:             
+            * [dist_tot_km_monthly_wT.sh](Code/Calculations/Distances/dist_tot_km_monthly_wT.sh)
 		
 	* Out: <br>
 [Figure 02](Figures/cumsum_km_and_abs_dist_km_BOXPLOT_01.jpg): Box plots of mean cumulative distance [km] (top) and mean absolute distance [km]
