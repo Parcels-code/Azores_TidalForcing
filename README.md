@@ -110,7 +110,7 @@ Supplementary figures:
             * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
     	
 	* Out: <br>
-		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days$^{-1}$] on day 01 of each month for the non-tidal simulation.
+		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days⁻¹] on day 01 of each month for the non-tidal simulation.
 		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the tidal simulation.      
 
 # Calculations:
