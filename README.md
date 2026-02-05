@@ -62,7 +62,7 @@ Install by: **xx**
  
  	* In: 
         * Skewness npz skew_2D_months_subregion_v02.npz. Obtained from:
-            * ../Calculations/skew_2D_months_subregion_v02.npz
+            * ../Calculations/2021-02-22_Azores_simus_100000p_hists_MONTHLY_allMONTHS_subregion_v02_SKEWNESS.ipynb
         * Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0301_hourly_MONTH.nc. Obtained from: 
             * 
 	
@@ -114,8 +114,16 @@ Supplementary figures:
 		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the tidal simulation.      
 
 # Calculations:
-* Monthly simulations:
+* Monthly simulations: One simulation file per month and tidal simulation, e.g.:
+    * [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh), which runs: [parcels_azores_eNATL60_ntide_Apr_monthly.py](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.py) 
+    
+Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh
 * Weekly simulations:
     * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
     * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
-
+    
+* skewness: 2021-02-22_Azores_simus_100000p_hists_MONTHLY_allMONTHS_subregion_v02_SKEWNESS.ipynb
+ 	* In: 
+        * Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc. Obtained from: 
+            * [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh)
+ 	* Out: [skew_2D_months_subregion_v02.npz](Code/Calculations/skew_2D_months_subregion_v02.npz)
