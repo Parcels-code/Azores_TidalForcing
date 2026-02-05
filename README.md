@@ -116,4 +116,6 @@ Supplementary figures:
 # Calculations:
 * Monthly simulations:
 * Weekly simulations:
+    * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
+    * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
 
