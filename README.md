@@ -1,4 +1,5 @@
 # Codes used for the paper: Gomez-Navarro _et al_. (2026)
+(www.doi.org/10.5281/zenodo.18499198)
 
 Reference: Gómez-Navarro, L.; van Sebille, E.; Morales-Márquez, V.; Hernández-Carrasco, I.; Albert, A.; Ubelmann, C.; Molines, J.M.; Le Sommer, J. and Brodeau, L. Impact of Tidal Forcing on Surface Particle Transport Properties: Insights From Twin Ocean Simulations. _Journal of Advances in Modeling Earth Systems_ **2026**, **_10_, 599.** (edit) www.doi.org/10.1029/2024MS004805
 
