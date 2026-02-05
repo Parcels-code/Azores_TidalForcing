@@ -41,7 +41,7 @@ env_parcels_Azores_analyses.yml
 		* Monthly nectdf simulation files per tidal simulation, e.g.: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc. Obtained from running [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh), which runs: [parcels_azores_eNATL60_ntide_Apr_monthly.py](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.py) 
 
         * GKDE npz monthly files: KDE_Particle_AZO_grid100000p_ntides_0701_hourly_MONTH.npz. Obtained from:
-            * Files e.g.:[kde_parcels_azores_eNATL60_monthly_Apr_May.sh](Code/Calculations/kde_parcels_azores_eNATL60_monthly_Apr_May.sh), which call the function [kde_func.py](Code/Calculations/kde_func.py):
+            * Files e.g.:[kde_parcels_azores_eNATL60_monthly_Apr_May.sh](Code/Calculations/kde_parcels_azores_eNATL60_monthly_Apr_May.sh), which call the function [kde_func.py](Code/Calculations/kde_func.py)
     * Output(s): <br>
 		* [Figure 03](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg): Gaussian Kernel Density Estimation (GKDE) comparison between non-tidal (top) and tidal (bottom) simulations. Maximum GKDE value (top) and percentage of particles with a high GKDE value (greater than 0.008) (bottom) are shown in the top left textbox.
 		* [Figure 04](Figures/KDE_nT_wT_monthly_ALL_perc_0080_Line.jpg): Comparison of the percentage of particles with a high GKDE value (≥0.008) per month. Non-tidal results are shown in blue and tidal in red. 
@@ -80,8 +80,28 @@ env_parcels_Azores_analyses.yml
     
 * [fig_10.ipynb](Code/Plotting/fig_10.ipynb)
     	
-	* Input(s): [List of input files](input_files/list_fig_015.md)
-	
+	* Input(s): 
+        * Distances:
+            * Monthly netcdfs: dist_km_Jul_nT.nc. Obtained from running [dist_km_Jul_nT.py](Code/Calculations/Distances/dist_km_Jul_nT.py) ran from .sh files: 
+                * [dist_km_monthly_nT_JASO.sh](Code/Calculations/Distances/dist_km_monthly_nT_JASO.sh)
+                * [dist_km_monthly_nT_MAMJ.sh](Code/Calculations/Distances/dist_km_monthly_nT_MAMJ.sh)
+                * [dist_km_monthly_nT_ONDJF.sh](Code/Calculations/Distances/dist_km_monthly_nT_ONDJF.sh)
+            * Monthly netcdfs: dist_km_Jul_wT.nc. Obtained from running [dist_km_Jul_wT.py](Code/Calculations/Distances/dist_km_Jul_wT.py) ran from .sh files:          
+                * [dist_km_monthly_wT_JASO.sh](Code/Calculations/Distances/dist_km_monthly_wT_JASO.sh)
+                * [dist_km_monthly_wT_MAMJ.sh](Code/Calculations/Distances/dist_km_monthly_wT_MAMJ.sh)
+                * [dist_km_monthly_wT_ONDJF.sh](Code/Calculations/Distances/dist_km_monthly_wT_ONDJF.sh)
+            * Monthly netcdfs: dist_tot_km_nT_Jul.nc. Obtained from running [dist_tot_km_monthly_nT.py](Code/Calculations/Distances/dist_tot_km_monthly_nT.py) ran from .sh file:          
+                * [dist_tot_km_monthly_nT.sh](Code/Calculations/Distances/dist_tot_km_monthly_nT.sh)
+            * Monthly netcdfs: dist_tot_km_wT_Jul.nc. Obtained from running [dist_tot_km_monthly_wT.py](Code/Calculations/Distances/dist_tot_km_monthly_wT.py) ran from .sh file:           
+                * [dist_tot_km_monthly_wT.sh](Code/Calculations/Distances/dist_tot_km_monthly_wT.sh)
+        * Monthly nectdf simulation files per tidal simulation, e.g.: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc. Obtained from running [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh), which runs: [parcels_azores_eNATL60_ntide_Apr_monthly.py](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.py) 
+        * GKDE npz monthly files: KDE_Particle_AZO_grid100000p_ntides_0701_hourly_MONTH.npz. Obtained from:
+            * Files e.g.:[kde_parcels_azores_eNATL60_monthly_Apr_May.sh](Code/Calculations/kde_parcels_azores_eNATL60_monthly_Apr_May.sh), which call the function [kde_func.py](Code/Calculations/kde_func.py)
+        * bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz. Obtained from:
+            * [2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb](Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb)
+            * [2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb](Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb)
+            
+        
 	* Output(s): 
         * [Figure 10](Figures/Joint_plot_02.jpg): Percentage difference with tidal forcing per month for each diagnostic calculated. From top to bottom: cumulative distance (CD), absolute distance (AD), percentage of particles with high Gaussian Kernel Density Estimation (GKDE ≥ 0.008) and percentage of particles with high backward Finite Time Lyapunov Exponents (bFTLE ≥ 0.5 days⁻¹).
    
@@ -122,7 +142,7 @@ Supplementary figures:
     * Input(s): eNATL60 model surface u and v outputs. Data available upon request.
     * Output(s): Bieekly nectdf simulation files: Particle_AZO_grid_ntides_0101_biweekly_hourly_BACK_v02.nc
     
-* GKDE: Ran from e.g.: [kde_parcels_azores_eNATL60_monthly_Apr_May.sh](Code/Calculations/kde_parcels_azores_eNATL60_monthly_Apr_May.sh), which call the function [kde_func.py](Code/Calculations/kde_func.py):
+* GKDE: Ran from e.g.: [kde_parcels_azores_eNATL60_monthly_Apr_May.sh](Code/Calculations/kde_parcels_azores_eNATL60_monthly_Apr_May.sh), which call the function [kde_func.py](Code/Calculations/kde_func.py).
     * Input(s):
         * d
     * Output(s):
