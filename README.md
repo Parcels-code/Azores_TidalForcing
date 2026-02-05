@@ -120,10 +120,10 @@ Supplementary figures:
     
     * Out: Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc
     
-* Weekly simulations:
-    * 
+* Biweekly simulations: 
+    * Simualtions launched from .sh files : [Particle_AZO_grid_Jul_w01_biweekly_hourly_BACK_v02.sh](Code/Calculations/Simulations/Biweekly/Particle_AZO_grid_Jul_w01_biweekly_hourly_BACK_v02.sh), which call the function: [parcels_azores_eNATL60_v02.py](Code/Calculations/Simulations/Biweekly/parcels_azores_eNATL60_v02.py)
     * In: eNATL60 model surface u and v outputs. Data available upon request.
-    * Out: Weekly nectdf simulation files: **xxxx***
+    * Out: Bieekly nectdf simulation files: Particle_AZO_grid_ntides_0101_biweekly_hourly_BACK_v02.nc
     
 * skewness: 2021-02-22_Azores_simus_100000p_hists_MONTHLY_allMONTHS_subregion_v02_SKEWNESS.ipynb
  	* In: 
@@ -135,7 +135,7 @@ Supplementary figures:
     * [2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb](Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb)
     * [2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb](Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb)
     * In:
-        * Biweekly nectdf simulation files: **xxxx**
+        * Biweekly nectdf simulation files: Particle_AZO_grid_ntides_0101_biweekly_hourly_BACK_v02.nc
     * Out:
         * bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz.
     
