@@ -9,6 +9,9 @@ Reference: Gómez-Navarro, L.; van Sebille, E.; Morales-Márquez, V.; Hernández
 
 env_parcels_Azores_analyses.yml
 
+conda env create -f env_parcels_Azores_analyses.yml -n <my_new_env_name>
+
+
 ## Figures:
 
 * [fig_01.ipynb](Code/Plotting/fig_01.ipynb)
