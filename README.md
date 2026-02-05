@@ -78,8 +78,8 @@ Install by: **xx**
             * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
 	
 	* Out: 
-		* **[Figure 07](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2009.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
-		* **[Figure 08](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2010.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from January to June 2010, for the non-tidal (left) and the tidal simulation (right).
+		* [Figure 07](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2009.jpg): Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
+		* [Figure 08](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2010.jpg): Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from January to June 2010, for the non-tidal (left) and the tidal simulation (right).
 		* [Figure 09](Figures/FTLE_backward_v02_biweekly_perc05_SKEW_nT_wT_AllMonths_newSkew_LinePlot.jpg): Top: Percentage of virtual particles with backward FTLE >0.5 days−1. Bottom: Skewness values of the backward FTLE fields.
     
 * [fig_10.ipynb](Code/Plotting/fig_10.ipynb)
@@ -110,7 +110,7 @@ Supplementary figures:
             * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
     	
 	* Out: <br>
-		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the non-tidal simulation.
+		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days$^{-1}$] on day 01 of each month for the non-tidal simulation.
 		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the tidal simulation.      
 
 # Calculations:
