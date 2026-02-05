@@ -80,13 +80,13 @@ Install by: **xx**
 	* Out: 
 		* [Figure 07](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2009.jpg): Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
 		* [Figure 08](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2010.jpg): Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from January to June 2010, for the non-tidal (left) and the tidal simulation (right).
-		* [Figure 09](Figures/FTLE_backward_v02_biweekly_perc05_SKEW_nT_wT_AllMonths_newSkew_LinePlot.jpg): Top: Percentage of virtual particles with backward FTLE >0.5 days−1. Bottom: Skewness values of the backward FTLE fields.
+		* [Figure 09](Figures/FTLE_backward_v02_biweekly_perc05_SKEW_nT_wT_AllMonths_newSkew_LinePlot.jpg): Top: Percentage of virtual particles with backward FTLE >0.5 days⁻¹. Bottom: Skewness values of the backward FTLE fields.
     
 * [fig_10.ipynb](Code/Plotting/fig_10.ipynb)
     	
 	* In: [List of input files](input_files/list_fig_015.md)
 	
-	* Out: [Figure 10](Figures/Joint_plot_02.jpg): Percentage difference with tidal forcing per month for each diagnostic calculated. From top to bottom: cumulative distance (CD), absolute distance (AD), percentage of particles with high Gaussian Kernel Density Estimation (GKDE ≥ 0.008) and percentage of particles with high backward Finite Time Lyapunov Exponents (bFTLE ≥ 0.5 **days−1).**
+	* Out: [Figure 10](Figures/Joint_plot_02.jpg): Percentage difference with tidal forcing per month for each diagnostic calculated. From top to bottom: cumulative distance (CD), absolute distance (AD), percentage of particles with high Gaussian Kernel Density Estimation (GKDE ≥ 0.008) and percentage of particles with high backward Finite Time Lyapunov Exponents (bFTLE ≥ 0.5 days⁻¹).
    
 Appendix figures:
 
@@ -98,7 +98,7 @@ Appendix figures:
             * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
             
 	* Out: <br>
-	[Figure A1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_hist1d_bins1_vline05.jpg): Probability density function of the backward FTLE fields on day 1 of each month for the no tidal forcing (blue) and tidal forcing (red) simulations. The vertical black line shows the threshold used at 0.5 days−1.
+	[Figure A1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_hist1d_bins1_vline05.jpg): Probability density function of the backward FTLE fields on day 1 of each month for the no tidal forcing (blue) and tidal forcing (red) simulations. The vertical black line shows the threshold used at 0.5 days⁻¹.
 
 Supplementary figures:
 
@@ -111,7 +111,7 @@ Supplementary figures:
     	
 	* Out: <br>
 		* [Figure S1](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_nT.jpg): Backward FTLE fields [days⁻¹] on day 01 of each month for the non-tidal simulation.
-		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days−1] on day 01 of each month for the tidal simulation.      
+		* [Figure S2](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_wT.jpg): Backward FTLE fields [days⁻¹] on day 01 of each month for the tidal simulation.      
 
 # Calculations:
 * Monthly simulations: One simulation file per month and tidal simulation, e.g.:
