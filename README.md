@@ -78,8 +78,8 @@ Install by: **xx**
             * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
 	
 	* Out: 
-		* **[Figure 07](Figures/KDE_nT_wT_monthly_ALL_nosubregionBOX.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
-		* **[Figure 08](Figures/KDE_nT_wT_monthly_ALL_perc_0080_Line.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from January to June 2010, for the non-tidal (left) and the tidal simulation (right).
+		* **[Figure 07](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2009.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from July to December 2009, for the non-tidal (left) and the tidal simulation (right).
+		* **[Figure 08](Figures/FTLE_backward_v02_biweekly_AllMonths_day01_05_nTwT_2010.jpg)**: Comparison of attracting LCS structures (bFTLEs) on day 1 of each month from January to June 2010, for the non-tidal (left) and the tidal simulation (right).
 		* [Figure 09](Figures/FTLE_backward_v02_biweekly_perc05_SKEW_nT_wT_AllMonths_newSkew_LinePlot.jpg): Top: Percentage of virtual particles with backward FTLE >0.5 days−1. Bottom: Skewness values of the backward FTLE fields.
     
 * [fig_10.ipynb](Code/Plotting/fig_10.ipynb)
@@ -116,14 +116,27 @@ Supplementary figures:
 # Calculations:
 * Monthly simulations: One simulation file per month and tidal simulation, e.g.:
     * [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh), which runs: [parcels_azores_eNATL60_ntide_Apr_monthly.py](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.py) 
+    * In: eNATL60 model surface u and v outputs. Data available upon request.
     
-Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh
+    * Out: Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc
+    
 * Weekly simulations:
-    * Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb
-    * Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb
+    * 
+    * In: eNATL60 model surface u and v outputs. Data available upon request.
+    * Out: Weekly nectdf simulation files: **xxxx***
     
 * skewness: 2021-02-22_Azores_simus_100000p_hists_MONTHLY_allMONTHS_subregion_v02_SKEWNESS.ipynb
  	* In: 
         * Monthly nectdf simulation files: Particle_AZO_grid100000p_ntides_0401_hourly_MONTH.nc. Obtained from: 
             * [parcels_azores_eNATL60_ntide_Apr_monthly.sh](Code/Calculations/Simulations/Monthly/parcels_azores_eNATL60_ntide_Apr_monthly.sh)
  	* Out: [skew_2D_months_subregion_v02.npz](Code/Calculations/skew_2D_months_subregion_v02.npz)
+
+* bFTLEs: Calculated monthly from:
+    * [2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb](Code/Calculations/2021-10-12_FTLE_back_season_subregion_v02_BIWEEKLY_comparison_CALCS.ipynb)
+    * [2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb](Code/Calculations/2022-01-18_FTLE_back_season_subregion_v02_BIWEEKLY_other_MONTHS_comparison_CALCS.ipynb)
+    * In:
+        * Biweekly nectdf simulation files: **xxxx**
+    * Out:
+        * bFTLE npz files: FTLE_b_nT_Jan_biw_w01_v02.npz.
+    
+    
